@@ -3,24 +3,3 @@
 
 @import 'include/_header';
 @import 'include/_footer';
-
-//include here your components or page styles
-
-//your style here
-body{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 100vh;
-  text-align: center;
-}
-img{
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
