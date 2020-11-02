@@ -1,2 +1,2 @@
-.btn{display:inline-flex;height:50px;padding:0 40px;align-items:center;justify-content:center;cursor:pointer;outline:none!important;transition:0.3s;background-color:#333;color:#fff}
+*{box-sizing:border-box}*{font-size:11px;width:100%}input{z-index:1;height:50px;width:100%;font-size:11px}textarea{font-size:11px}
 /*# sourceMappingURL=style.css.map */

@@ -3,3 +3,16 @@
 
 @import 'include/_header';
 @import 'include/_footer';
+*{
+  font-size: 11px;
+  width: 100%;
+}
+input{
+  z-index: 1;
+  height: 50px;
+  width: 100%;
+  font-size: 11px;
+}
+textarea{
+  font-size: 11px;
+}
