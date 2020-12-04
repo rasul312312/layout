@@ -1,5 +1,23 @@
 {
   "name": "prepros-project",
   "version": "1.0.0",
-  "description": "This is a dummy package.json file created by Prepros to manage packages with NPM. You can edit this file to add your own information."
+  "description": "",
+  "devDependencies": {
+    "accordionjs": "2.1.1",
+    "jquery-custom-select": "1.6.4",
+    "nanoscroller": "0.8.7",
+    "aos": "2.3.4",
+    "flickity": "2.2.1",
+    "headroom.js": "0.12.0",
+    "jquery-smarttab": "3.1.1",
+    "jquery-visible": "1.2.0",
+    "lightgallery": "1.10.0",
+    "lightslider": "1.1.6",
+    "macy": "2.5.1",
+    "micromodal": "0.4.6",
+    "owl.carousel2": "2.2.1",
+    "plyr": "3.6.3",
+    "show-more": "^1.0.1"
+  },
+  "dependencies": {}
 }

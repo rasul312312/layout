@@ -1,18 +1,6 @@
 @import 'base/_base';
+@import 'mixin/_adaptiv-fonts';
 @import 'base/_fonts-and-button';
 
 @import 'include/_header';
 @import 'include/_footer';
-*{
-  font-size: 11px;
-  width: 100%;
-}
-input{
-  z-index: 1;
-  height: 50px;
-  width: 100%;
-  font-size: 11px;
-}
-textarea{
-  font-size: 11px;
-}
