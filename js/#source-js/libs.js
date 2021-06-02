@@ -1,0 +1,1 @@
+import owlCarousel from 'owl.carousel2'

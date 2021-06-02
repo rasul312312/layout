@@ -1,0 +1,133 @@
+.form {
+    width: 100%;
+}
+
+.form-box {
+    margin-bottom: 20px;
+}
+
+input {
+    // Placeholder color
+    &::-webkit-input-placeholder {
+        color: $ColorPlaceholderForm;
+    }
+
+    &::-moz-placeholder {
+        color: $ColorPlaceholderForm;
+    }
+
+    &:-ms-input-placeholder {
+        color: $ColorPlaceholderForm;
+    }
+
+    &:-moz-placeholder {
+        color: $ColorPlaceholderForm;
+    }
+
+    // Remove arrow [type="number"]
+    &::-webkit-outer-spin-button,
+    &::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+
+    &[type=number] {
+        -moz-appearance: textfield;
+    }
+
+    /* Remove shadow ios */
+    &:matches(
+      [type="email"],
+      [type="number"],
+      [type="password"],
+      [type="search"],
+      [type="tel"],
+      [type="text"],
+      [type="url"]
+    ) {
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+    }
+
+}
+
+textarea {
+    // Placeholder color
+    &::-webkit-input-placeholder {
+        color: $ColorPlaceholderForm;
+    }
+
+    &::-moz-placeholder {
+        color: $ColorPlaceholderForm;
+    }
+
+    &:-ms-input-placeholder {
+        color: $ColorPlaceholderForm;
+    }
+
+    &:-moz-placeholder {
+        color: $ColorPlaceholderForm;
+    }
+
+    /* Remove shadow ios */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+select {
+    // Remove arrow
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: '';
+    cursor: pointer;
+    &::-ms-expand {
+        display: none;
+    }
+}
+
+.form-default{
+    border: 1px solid $ColorBorderForm;
+    outline: none;
+    width: 100%;
+    padding: 0 16px;
+    height: 40px;
+    color: $ColorForm;
+    border-radius: $Radius-5;
+}
+.form-input {
+    @extend .form-default;
+}
+
+.form-select {
+    @extend .form-default;
+}
+
+.form-textarea {
+    @extend .form-default;
+    padding: 16px;
+}
+
+.form-button {
+    height: 40px;
+    padding: 0 30px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+    border: 0;
+    cursor: pointer;
+    &.form-button-disabled{
+        user-select: none;
+        pointer-events: none;
+        opacity: 0.3;
+    }
+}
+
+.form-error-msg{
+    color: red;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
